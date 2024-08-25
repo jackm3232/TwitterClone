@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <script defer src="../scripts/main.js"></script>
+  </head>
+  <body>
+    <div id="sidebar">
+      <img id="twitter_logo" src="./images/twitter_logo.png" />
+    </div>
+    <main id="all_tweets">
+      <div id="current_tweet">
+        <div id="tweet_info_container">
+          <input id="username_box" type="text" placeholder="Enter username..." />
+          <textarea id="tweet_body_box" type="text" placeholder="What's happening?"></textarea>
+          <div id="char_counter">0/280</div>
+        </div>
+        <div id="tweet_button_container">
+          <button id="tweet_button" class="button_cannot_tweet">Tweet</button>
+        </div>
+      </div>
+      <div id="posted_tweets_container"></div>
+    </main>
+  </body>
+</html>
